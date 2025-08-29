@@ -96,16 +96,16 @@ https://www.linkedin.com/in/mohammed-bachir-henka-it/
 
 
 
-## دليل سريع لإنشاء مشروع FastAPI باستخدام Poetry
+# دليل سريع لإنشاء مشروع FastAPI باستخدام Poetry
 
 ## 1. التحقق من التثبيت
-# تأكد من وجود Python و Poerty مثبتين:
+### تأكد من وجود Python و Poerty مثبتين:
 ```bash
 python --version    # يجب أن تكون ≥ 3.7
 poetry --version
 ```
 
-# إذا لم يكن Poetry مثبتًا:
+### إذا لم يكن Poetry مثبتًا:
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -
 ```
@@ -133,7 +133,7 @@ poetry add fastapi uvicorn
 ```
 
 ## 5. إنشاء ملف التطبيق (مثلاً: main.py) 
-# يمكنك إنشاء الملف يدويًا أو تنفيذ الأمر التالي لإنشائه تلقائيًا:
+يمكنك إنشاء الملف يدويًا أو تنفيذ الأمر التالي لإنشائه تلقائيًا:
 ```bash
 cat > main.py << EOL
 from fastapi import FastAPI
